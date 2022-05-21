@@ -6,7 +6,7 @@ today = date.today()
 today_format = today.strftime("%d-%m-%Y")
 
 date_dir = f"{today_format}"
-parent_dir = "C:/Users/user/Desktop/Tree/"
+parent_dir = "C:/Users/%userprofile%/Desktop/Tree/"
 path = os.path.join(parent_dir, date_dir)
 file_exist = os.path.exists(path)
 
