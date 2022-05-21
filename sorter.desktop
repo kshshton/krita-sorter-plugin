@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=sorter
+X-Python-2-Compatible=false
+Name=File Sorter
+Comment=Sorting file by date
